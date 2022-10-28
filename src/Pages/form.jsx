@@ -3,7 +3,7 @@ import './form.css';
 function Form() {
     return (
         <div className="div-form">
-            <header className="form-header"></header>
+            <body className="form-header"></body>
         </div>
     );
 }
