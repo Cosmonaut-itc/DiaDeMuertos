@@ -4,7 +4,7 @@ function Form() {
     return (
         <div className="div-form">
             <body className="form-header">
-            <form name="registro" data-netlify="true">
+            <form name="registro" netlify>
                 <p>
                     <label>Nombre <input type="text" name="name" /></label>
                 </p>
