@@ -5,6 +5,7 @@ function Form() {
         <div className="div-form">
             <body className="form-header">
             <form action="/" method="post" name="registro" data-form-type="registration" netlify>
+                <input type="hidden" name="form-name" value="registro" />
                 <p>
                     <label>Nombre <input type="text" name="nombre" /></label>
                 </p>
