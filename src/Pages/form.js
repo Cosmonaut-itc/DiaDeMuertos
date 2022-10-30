@@ -4,9 +4,9 @@ function Form() {
     return (
         <div className="div-form">
             <body className="form-header">
-            <form action="/" method="POST" name="registro" netlify>
+            <form name="registro" action="/" method="post" encType="application/x-www-form-urlencoded" netlify>
                 <p>
-                    <label>Nombre <input type="text" name="name" /></label>
+                    <label>Nombre <input type="text" name="nombre" /></label>
                 </p>
                 <p>
                     <p>
