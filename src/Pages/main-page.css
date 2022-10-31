@@ -49,6 +49,7 @@
     background-image: url("yellowbckgrnd_correct.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     width: 350px;
     transform: translate(0, 12%);
     background-color: #2c153c;
