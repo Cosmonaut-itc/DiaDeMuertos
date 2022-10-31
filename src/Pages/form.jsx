@@ -17,7 +17,7 @@ function Form() {
                 <p className="titulo"> Lista de<br/> Invitados</p>
                 <p>
                     <div className="form-input">
-                        <input id="name" className="form-element-input" type="input"
+                        <input id="name" className="form-element-input" type="input" data-form-type="name"
                                placeholder="Please fill in your name" onChange={handleChange} required/>
                         <div className="form-element-bar"></div>
                         <label className="form-element-label" htmlFor="name">Nombre</label>
