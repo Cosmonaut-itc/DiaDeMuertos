@@ -5,20 +5,28 @@
     <title>Title</title>
 </head>
 <body>
-<form name="registro" netlify netlify-honeypot="bot-field" hidden>
+<form className="form" action="/" method="post" name="registro" data-form-type="registration" netlify>
+  <input type="hidden" name="form-name" value="registro" />
+  <p className="titulo"> Lista de<br/> Invitados</p>
   <p>
-    <label>Nombre <input type="text" name="nombre" /></label>
+  <div className="form-input">
+    <input id="name" className="form-element-input" type="input"
+           placeholder="Please fill in your name" onChange={handleChange} required/>
+    <div className="form-element-bar"></div>
+    <label className="form-element-label" htmlFor="name">Nombre</label>
+    <small className="form-element-hint">Ingresa tu nombre y apellido</small>
+  </div>
   </p>
   <p>
-    <p>
-      <label>¿Estas Soltero?: <select name="options[]" multiple>
-        <option value="Si">Si</option>
-        <option value="No">No</option>
-      </select></label>
-    </p>
+  <p>
+    <label className="label">¿Estas Soltero?<br/><select className="select" name="options[]" required>
+      <option value="Si">Si</option>
+      <option value="No">No</option>
+    </select></label>
+  </p>
   </p>
   <p>
-    <label>Aportacion: <select name="aportacion[]" multiple>
+    <label className="label">Aportacion<br/><select className="select" name="aportacion[]" required="true">
       <option value="100">$100</option>
       <option value="200">$200</option>
       <option value="300">$300</option>
@@ -26,7 +34,7 @@
     </select></label>
   </p>
   <p>
-    <button type="submit">Send</button>
+    <button className="button-28" type="submit" > Enviar </button>
   </p>
 </form>
 </body>
