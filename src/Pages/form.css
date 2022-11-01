@@ -9,6 +9,7 @@
     background-image: url("empty_yellow.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     width: 350px;
     height: 30%;
     transform: translate(0, 12%);
@@ -48,8 +49,7 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     width: 60%;
-    will-change: transform;
-    margin-bottom: 300px;
+    will-change: transform
 }
 
 .button-28:disabled {
