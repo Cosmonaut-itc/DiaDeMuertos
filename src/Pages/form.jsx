@@ -31,7 +31,7 @@ function Form() {
                     </select></label>
                 </p>
                 <p>
-                    <input type="checkbox" id="acepto" name="maquillaje" value="acepto" />Acepto que tengo que ir <br/>maquillad@ a la fiesta
+                    <input type="checkbox" id="acepto" name="maquillaje" value="acepto" required="true" />Acepto que tengo que ir <br/>maquillad@ a la fiesta
                 </p>
                 <p>
                     <button className="button-28" type="submit" > Enviar </button>
