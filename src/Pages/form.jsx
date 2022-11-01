@@ -23,20 +23,15 @@ function Form() {
                     <small className="form-element-hint">Ingresa tu nombre y apellido</small>
                 </p>
                 <p>
-                    <p>
-                        <label className="label">¿Estas Soltero?<br/><select className="select" name="options[]" required>
-                            <option value="Si">Si</option>
-                            <option value="No">No</option>
-                        </select></label>
-                    </p>
-                </p>
-                <p>
                     <label className="label">Aportacion<br/><select className="select" name="aportacion[]" required="true">
                         <option value="100">$100</option>
                         <option value="200">$200</option>
                         <option value="300">$300</option>
                         <option value="0">Yo llevare de tomar</option>
                     </select></label>
+                </p>
+                <p>
+                    <input type="checkbox" id="acepto" name="maquillaje" value="acepto" />Acepto que tengo que ir <br/>maquillad@ a la fiesta
                 </p>
                 <p>
                     <button className="button-28" type="submit" > Enviar </button>
