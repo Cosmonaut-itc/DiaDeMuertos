@@ -1,6 +1,5 @@
 import './form.css';
 import $ from 'jquery';
-import React, { useState } from 'react';
 import Select from 'react-select';
 
 function Form() {
