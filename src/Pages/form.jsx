@@ -21,7 +21,7 @@ function Form() {
     return (
         <div className="div-form">
             <body className="form-header">
-            <form className="form" action="/despedida" method="post" name="registro" data-form-type="registration" netlify>
+            <form className="form" method="post" name="registro" data-form-type="registration" action="/despedida" netlify>
                 <input type="hidden" name="form-name" value="registro" />
                 <p className="titulo"> Lista de<br/> Invitados</p>
                 <p>
