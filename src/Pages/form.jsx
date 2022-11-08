@@ -1,7 +1,6 @@
 import './form.css';
 import $ from 'jquery';
 import Select from 'react-select';
-import yellow from "./empty_yellow.jpg";
 
 function Form() {
 
