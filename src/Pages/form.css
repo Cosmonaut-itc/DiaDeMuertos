@@ -81,7 +81,7 @@
     opacity: 0.001;
     transition: opacity 0.28s ease;
     will-change: opacity;
-    margin-top: -80px;
+    margin-top: -74px;
 }
 
 .form-element-input::placeholder {
