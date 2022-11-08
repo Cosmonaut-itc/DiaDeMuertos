@@ -1,6 +1,7 @@
 import './form.css';
 import $ from 'jquery';
 import Select from 'react-select';
+import yellow from "./empty_yellow.jpg";
 
 function Form() {
 
@@ -20,7 +21,7 @@ function Form() {
     }
     return (
         <div className="div-form">
-            <body className="form-header">
+            <body className="form-header" style={{backgroundImage: `url('https://i.ibb.co/VBDykc2/empty-yellow.jpg')`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}>
             <form className="form" method="post" name="registro" data-form-type="registration" action="/despedida" netlify>
                 <input type="hidden" name="form-name" value="registro" />
                 <p className="titulo"> Lista de<br/> Invitados</p>

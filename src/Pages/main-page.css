@@ -46,9 +46,6 @@
 }
 
 .App-header {
-    background-image: url("https://i.ibb.co/BTm5CHG/yellowbckgrnd-correct.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
     width: 350px;
     transform: translate(0, 12%);
     background-color: #2c153c;
@@ -56,5 +53,4 @@
     align-items: center;
     size: auto;
     justify-content: center;
-
 }

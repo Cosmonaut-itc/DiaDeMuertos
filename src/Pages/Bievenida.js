@@ -9,7 +9,7 @@ function Bienvenida() {
     };
     return (
         <div className="div1">
-            <body className="App-header">
+            <body className="App-header" style={{backgroundImage: `url('https://i.ibb.co/BTm5CHG/yellowbckgrnd-correct.png')`, backgroundSize: 'contain'}}>
                 <button onClick={navigateToForm} className="button-27"> Asistir </button>
             </body>
         </div>
