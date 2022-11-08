@@ -21,7 +21,7 @@ function Form() {
     return (
         <div className="div-form">
             <body className="form-header" style={{backgroundImage: `url('https://i.ibb.co/VBDykc2/empty-yellow.jpg')`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}>
-            <form className="form" method="post" name="registro" data-form-type="registration" action="/despedida" netlify>
+            <form className="form" action="/despedida" method="post" name="registro" data-form-type="registration" netlify>
                 <input type="hidden" name="form-name" value="registro" />
                 <p className="titulo"> Lista de<br/> Invitados</p>
                 <p>
@@ -32,9 +32,12 @@ function Form() {
                     <small className="form-element-hint">Ingresa tu nombre y apellido</small>
                 </p>
                 <p>
-                    <label className="label">Aportacion<br/>
-                        <Select className="select" options={options} name="opciones"></Select>
-                    </label>
+                    <label className="label">Aportacion<br/><select className="select" name="aportacion[]" required="true">
+                        <option value="100">$100</option>
+                        <option value="200">$200</option>
+                        <option value="300">$300</option>
+                        <option value="0">Yo llevare de tomar</option>
+                    </select></label>
                 </p>
                 <p>
                     <input type="checkbox" id="acepto" name="maquillaje" value="acepto" required="true" />Acepto que tengo que ir <br/>maquillad@ a la fiesta
