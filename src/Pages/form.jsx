@@ -2,14 +2,6 @@ import './form.css';
 import $ from 'jquery';
 
 function Form() {
-
-    const options =[
-        {value: '100', label: '$100'},
-        {value: '200', label: '$200'},
-        {value: '300', label: '$300'},
-        {value: '0', label: 'Yo llevaré de tomar'},
-    ]
-
     function handleChange(event){
         if($('.form-element-input').val()) {
             $('.form-element-input').addClass('hasValue');
